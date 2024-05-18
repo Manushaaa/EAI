@@ -1,0 +1,44 @@
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+    
+}
+
+.content-table {
+    
+    margin: auto;
+    font-size: 13px;
+    background-color: lightyellow;
+    min-width: 1300px;
+    border-radius: 6px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.content-table thead tr {
+    background-color: #549800;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 13px;
+}
+
+.content-table  tr {
+    border-top: 1px solid #3516e2;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #728cdd;
+}
+
+
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
